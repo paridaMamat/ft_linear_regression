@@ -57,10 +57,10 @@ The training script includes a matplotlib animation showing how the regression l
 ![My Animation](animation.gif)
 
 
-##Notes
-   -Ensure data.csv exists in the same directory and contains valid data.
+## Notes
+   - Ensure data.csv exists in the same directory and contains valid data.
 
-   -The training script uses min-max normalization for stability during gradient descent.
+   - The training script uses min-max normalization for stability during gradient descent.
 
-   -The final parameters are unnormalized before saving to make prediction more interpretable.
+   - The final parameters are unnormalized before saving to make prediction more interpretable.
 
