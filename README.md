@@ -23,3 +23,37 @@ Make sure the following Python packages are installed:
 ```bash
 
 pip install numpy pandas matplotlib
+```
+
+## How to Run
+1. Train the Model
+
+Run the training script:
+```bash
+python linear_regresstion.py
+```
+This will:
+
+   - Load data.csv
+
+   - Normalize mileage data
+
+   - Train the model using gradient descent
+
+   - Save model parameters in theta.json
+
+   - Display an animation showing the evolution of the regression line
+
+2. Predict Prices
+
+Once the model is trained, you can use the predictor:
+```bash
+python prediction.py
+```
+You'll be prompted to input mileage values, and it will return estimated prices based on the model.
+
+## Visualization
+The training script includes a matplotlib animation showing how the regression line fits the data over time using gradient descent. This is helpful for educational purposes and debugging.
+![My Animation](animation.gif)
+
+
