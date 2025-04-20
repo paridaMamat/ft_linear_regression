@@ -21,11 +21,5 @@ This project implements a simple **linear regression model** to estimate the pri
 Make sure the following Python packages are installed:
 
 ```bash
+
 pip install numpy pandas matplotlib
-
-This project is released under the MIT License.
-
-
----
-
-Let me know if you want a French version or want to turn this into a proper GitHub project with badg
